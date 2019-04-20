@@ -1,7 +1,7 @@
 let axios = require('axios'); 
 let cheerio = require('cheerio'); 
 let mongoose = require('mongoose'); 
-let db = require("../models"); 
+let db = require("../models/articles"); 
 
 
 mongoose.Promise = Promise; 
